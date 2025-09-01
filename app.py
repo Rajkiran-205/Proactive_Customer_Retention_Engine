@@ -147,7 +147,7 @@ def preprocess_for_topic_modeling(text):
 # --- Generative AI Recommender Function ---
 def generate_recommendation(churn_prob, shap_values, processed_df, topic):
     # 🔐 Replace with your actual Gemini API key
-    API_KEY = "AIzaSyBmie3uB9us4hF_pVqoBKIcsiUbS6EN5kI"  # <-- Use your working key
+    API_KEY = ""  # <-- Use your working key
     
     # ✅ Choose from available models
     MODEL = "gemini-2.0-flash"  # or "gemini-2.0-pro"
@@ -313,3 +313,4 @@ if all([preprocessor, model, explainer, df_original is not None]):
 
 else:
     st.warning("Could not load core model files. The application cannot run.")
+
