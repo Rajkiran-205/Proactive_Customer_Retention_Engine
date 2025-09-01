@@ -1,10 +1,10 @@
-# Proactive_Customer_Retention_Engine
-Proactive Customer Retention Engine 🚀
+
+# Proactive Customer Retention Engine 🚀
 An end-to-end data science project that predicts, explains, and recommends actions for customer churn using a multi-layered AI approach. This repository contains the full workflow, from data preprocessing and model training to a final interactive web application built with Streamlit.
 
 (This is a sample image. It's highly recommended you replace it with a screenshot of your actual running application.)
 
-📋 Table of Contents
+# 📋 Table of Contents
 Overview
 
 ✨ Key Features
@@ -17,7 +17,7 @@ Overview
 
 📈 Methodology
 
-🔎 Overview
+# 🔎 Overview
 Customer churn is a critical problem for subscription-based businesses. This project moves beyond simple churn prediction by building a holistic "retention engine" that not only identifies at-risk customers with high accuracy but also provides deep, actionable insights for retention teams.
 
 The core of this project is a Streamlit web application that integrates several AI components:
@@ -30,7 +30,7 @@ NLP models for real-time sentiment analysis and topic modeling on customer feedb
 
 A Generative AI (powered by Google's Gemini) to synthesize all this information and create personalized retention strategies on the fly.
 
-✨ Key Features
+# ✨ Key Features
 High-Accuracy Prediction: Utilizes an XGBoost classifier trained on telco data, achieving ~97% accuracy.
 
 Explainable AI (XAI): Generates dynamic SHAP waterfall plots to show which features (e.g., contract type, tenure) are driving the churn risk for each customer.
@@ -45,7 +45,7 @@ AI-Powered Retention Strategies: The final layer uses a generative model to craf
 
 Interactive Dashboard: A clean, modern, and user-friendly interface built with Streamlit for easy interaction.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Backend & ML: Python, Scikit-learn, XGBoost, SHAP
 
 NLP: BERTopic, Transformers (Hugging Face), NLTK
@@ -58,7 +58,7 @@ Visualization: Matplotlib, Seaborn
 
 Development Environment: Jupyter Notebook
 
-📂 Project Structure
+# 📂 Project Structure
 The repository is structured to show the complete end-to-end machine learning lifecycle.
 
 .
@@ -70,7 +70,7 @@ The repository is structured to show the complete end-to-end machine learning li
 ├── 📦 *.pkl                         # Saved artifacts (models, preprocessor, explainer)
 └── 📄 README.md                     # This file
 
-🚀 Getting Started
+# 🚀 Getting Started
 To run this project locally, follow these steps:
 
 1. Clone the Repository
@@ -100,7 +100,7 @@ streamlit run app.py
 
 Open your web browser to http://localhost:8501 to view the application.
 
-📈 Methodology
+# 📈 Methodology
 The project follows a structured machine learning pipeline:
 
 Data Preprocessing: The initial telco dataset is cleaned, with missing values handled and data types corrected. A ColumnTransformer pipeline is used to scale numerical features and one-hot encode categorical features.
